@@ -61,4 +61,5 @@
 - Новий код — одразу за FSD, старий переносити поступово
 
 ## Ресурси
-- [FSD overview](https://feature-sliced.design/docs/get-started/overview)
+- **FSD oficial documentation Overview**  
+  https://feature-sliced.design/docs/get-started/overview
