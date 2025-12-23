@@ -1,0 +1,15 @@
+.product-card {
+  padding: 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 2px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.product-card__badge {
+  color: #b91c1c;
+  font-size: 0.85rem;
+  margin-left: 0.5rem;
+}

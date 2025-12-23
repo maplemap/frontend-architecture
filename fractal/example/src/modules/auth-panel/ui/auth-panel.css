@@ -1,0 +1,11 @@
+.auth-panel {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.auth-panel input {
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}
