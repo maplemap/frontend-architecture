@@ -17,7 +17,7 @@
 - **entities** — бізнес-сутності: User, Product, Order
 - **features** — завершені користувацькі дії
 - **pages** — маршрути, що збирають фічі
-- **~~processes~~** — довгі сценарії (checkout, onboarding) (deprecated)
+- ~~**processes** — довгі сценарії (checkout, onboarding)~~ (deprecated)
 - **app** — ініціалізація застосунку, router, providers
 
 **Правило:** імпорти тільки вниз по ієрархії.
@@ -57,7 +57,6 @@
 ## Як Впроваджувати
 - Починати з user story: визначити slice → зібрати entities → створити features → додати pages
 - Тримати публічний API через `index.ts`
-- Побічні ефекти поміщати у features/processes
 - Новий код — одразу за FSD, старий переносити поступово
 
 ## Ресурси

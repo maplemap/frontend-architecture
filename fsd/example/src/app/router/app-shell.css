@@ -1,0 +1,51 @@
+.app-shell {
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.app-shell header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.app-shell__tabs {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.app-shell nav {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.app-shell__cart-button {
+  position: relative;
+  display: inline-flex;
+}
+
+.app-shell__cart-badge {
+  position: absolute;
+  top: -0.4rem;
+  right: -0.4rem;
+  min-width: 1.25rem;
+  height: 1.25rem;
+  padding: 0 0.25rem;
+  border-radius: 999px;
+  background: #ff6b6b;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}

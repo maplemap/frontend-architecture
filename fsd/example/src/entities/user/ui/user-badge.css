@@ -1,0 +1,29 @@
+.user-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.user-badge__avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #111827;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.user-badge__name {
+  margin: 0;
+  font-weight: 600;
+}
+
+.user-badge__role {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #6b7280;
+}
