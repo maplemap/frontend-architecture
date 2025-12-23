@@ -1,4 +1,4 @@
-import type { EntityId } from '../../../types';
+import type { EntityId } from 'shared/types';
 
 type CartItemPayload = {
   id: EntityId;

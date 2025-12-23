@@ -1,4 +1,4 @@
-import type { EntityId } from '../../../types';
+import type { EntityId } from 'shared/types';
 
 export type UserRole = 'guest' | 'customer' | 'admin';
 

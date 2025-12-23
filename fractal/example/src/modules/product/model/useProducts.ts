@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 import { apiClient } from '../../../app/api';
-import { useAsync } from '../../../hooks';
+import { useAsync } from 'shared/hooks';
 import type { Product } from './types';
 
 async function fetchProducts() {
